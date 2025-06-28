@@ -49,19 +49,6 @@ INSERT INTO `pegawai` (`id_pegawai`, `nama`, `nik`, `jenis_kelamin`, `alamat`, `
 -- --------------------------------------------------------
 
 --
--- Table structure for table `penjualan aki`
---
-
-CREATE TABLE `penjualan aki` (
-  `pegawai` int(11) NOT NULL,
-  `stok_barang` int(11) NOT NULL,
-  `transaksi_penjualan` int(11) NOT NULL,
-  `users` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
--- --------------------------------------------------------
-
---
 -- Table structure for table `stok_barang`
 --
 
